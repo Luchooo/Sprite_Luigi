@@ -1,0 +1,85 @@
+
+#Fondo{
+
+    
+	background-image: url(./Imagenes/Fondo.jpg);
+	background-size: 969px 606px;
+	background-repeat:no-repeat;
+	width: 969px;
+	height: 606px;
+}
+
+#Laberinto{
+
+    
+	background-image: url(./Imagenes/Laberinto.png);
+	
+	background-size: 600px 400px;
+	background-repeat:no-repeat;
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	left:230px;
+	top:100px;
+	
+}
+
+
+
+
+
+
+#Luigi{
+
+	
+	width: 31px;
+	height: 75px;
+	position: absolute;
+
+	}
+
+
+.Luigi_Sprite_Generator {
+    background: url(./Imagenes/Luigi_Sprite_Generator.png);
+}
+
+.Derecha_0{ background-position: 0 0; width: 31px; height: 75px; } 
+.Derecha_1{ background-position: -81px 0; width: 31px; height: 73px; } 
+.Derecha_2{ background-position: -162px 0; width: 32px; height: 71px; } 
+.Derecha_3{ background-position: -244px 0; width: 31px; height: 73px; } 
+.Derecha_4{ background-position: -325px 0; width: 31px; height: 71px; } 
+.Espalda_0{ background-position: -406px 0; width: 29px; height: 69px; } 
+.Espalda_1{ background-position: -485px 0; width: 29px; height: 73px; } 
+.Espalda_2{ background-position: -564px 0; width: 29px; height: 75px; } 
+.Espalda_3{ background-position: -643px 0; width: 29px; height: 73px; } 
+.Espalda_4{ background-position: -722px 0; width: 29px; height: 69px; } 
+.Frente_0{ background-position: -801px 0; width: 31px; height: 71px; } 
+.Frente_1{ background-position: -882px 0; width: 33px; height: 73px; } 
+.Frente_2{ background-position: -965px 0; width: 34px; height: 75px; } 
+.Frente_3{ background-position: -1049px 0; width: 33px; height: 73px; } 
+.Frente_4{ background-position: -1132px 0; width: 30px; height: 71px; } 
+.Izquierda_0{ background-position: -1212px 0; width: 32px; height: 75px; } 
+.Izquierda_1{ background-position: -1294px 0; width: 31px; height: 73px; } 
+.Izquierda_2{ background-position: -1375px 0; width: 31px; height: 71px; } 
+.Izquierda_3{ background-position: -1456px 0; width: 31px; height: 73px; } 
+.Izquierda_4{ background-position: -1537px 0; width: 31px; height: 71px; } 
+
+
+#Cajas{
+
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	left:850px;
+	top:160px;
+
+
+}
+
+.Cajas_Mario {
+    background: url(./Imagenes/Cajas.png);
+}
+
+.Caja_0{ background-position: 0 0; width: 32px; height: 32px; } 
+.Caja_1{ background-position: -82px 0; width: 32px; height: 32px; } 
+.Caja_2{ background-position: -164px 0; width: 32px; height: 32px; } 
